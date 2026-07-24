@@ -15,3 +15,24 @@ public class Interviewcodes {
 (OUTPUT)=>1-is odd,2-is-even.
 		
 
+//2.) Java program to find Prime number.
+public class Interviewcodes {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter a number:");
+	int number=sc.nextInt();
+	if(isprime (number)) {
+		System.out.println(number+"is prime num.");
+	}else {
+		System.out.println(number+"is not prime num.");
+	}}	
+	
+public static boolean isprime(int num) {
+	for(int i=2;i<=num/2;i++) {
+		if(num%i==0) {
+			return false;
+		
+		return true;
+		}}}
+}}
+	
