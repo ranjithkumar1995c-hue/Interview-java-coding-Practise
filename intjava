@@ -102,6 +102,46 @@ public static void main(String[] args) {
 }}
 (OUTPUT)=>Enter any number
 Factorial number is:720.
-
+//6.) Java program to Reverse Number.
+public class Interviewcodes {
+public static void main(String[] args) {
+	int no,rev=0,r,a;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter any number:");
+	no=sc.nextInt();
+	a=no;
+	while(no>0) {
+		r=no%10;
+		rev=rev*10+r;
+		no=no/10;
+	}
+System.out.println("Reverse:"+rev);
+}}
+(OUTPUT)->Enter any number:
+45678
+Reverse:87654
+//7.) Java program to find Armstrong Number.
+public class Interviewcodes {
+public static void main(String[] args) {
+	int arm=0, a,b,d,no;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter anynumber:");
+	no=sc.nextInt();
+	d=no;
+	while(no>0)
+	{
+		a=no%10;
+		no=no/10;
+		arm=arm+a*a*a;
+	}
+	if(arm==d) {
+		System.out.println("Armstrong number");
+	}else {
+		System.out.println("Not Armstrong number");
+	}
+}}
+(OUTPUT)=>Enter anynumber:
+131
+Not Armstrong number.
 
 	
