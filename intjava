@@ -66,6 +66,27 @@ Fiboncci Series is
 3
 5
 8
+//	4.) Java program to swap two numbers without 
+//using third variable.
+public class Interviewcodes {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the first number of :");
+	int a=5;
+	System.out.println("Enter the Second number of :");
+	int b=10;
+	System.out.println("Before Swapping: a="+a+",b="+b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	System.out.println("After Swapping: a="+a+",b="+b);
+	
+	
+}}
+(OUTPUT)=>Enter the first number of :
+Enter the Second number of :
+Before Swapping: a=5,b=10
+After Swapping: a=10,b=5.
 
 
 	
