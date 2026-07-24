@@ -41,5 +41,31 @@ public static boolean isprime(int num) {
 Enter a number:
 11
 11is prime num.
+public class Interviewcodes {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter number of terms");
+	int number=6;
+	int first=0,Second=1, next;
+	System.out.println("Fiboncci Series is");
+	for(int i=0;i<=number;i++) {
+		System.out.println(first+"");
+		next=Second+first;
+		first=Second;
+		Second=next;
+	}
+	
+}}
+		
+(OUTPUT)=>Enter number of terms
+Fiboncci Series is
+0
+1
+1
+2
+3
+5
+8
+
 
 	
