@@ -35,4 +35,11 @@ public static boolean isprime(int num) {
 		return true;
 		}}}
 }}
+(OUTPUT)=>Enter a number:
+22
+22is not prime num.
+Enter a number:
+11
+11is prime num.
+
 	
