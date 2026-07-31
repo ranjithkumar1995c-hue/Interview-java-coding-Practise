@@ -211,3 +211,24 @@ public static int calculate sum of Digits(int number) {
 	}
 }}
 (OUTPUT)=>Sum of digits of 12345 is: 15 .
+//         Strings 
+// 1.) Java program to reverse a string.
+public class Interviewcodes {
+
+public static void main(String[] args) {
+	
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter a string:...");
+	String input=sc.nextLine();
+	char ch;
+	String nstr="";
+	for(int i=0;i<input.length();i++);
+	{
+		ch=input.charAt(0);
+		nstr=ch+nstr;
+	}
+	System.out.println("Revesed String is:"+nstr);
+}}
+(OUTPUT)=>Enter a string:...
+ranjith
+Revesed String is:r
