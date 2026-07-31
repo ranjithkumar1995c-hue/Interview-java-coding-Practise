@@ -232,3 +232,31 @@ public static void main(String[] args) {
 (OUTPUT)=>Enter a string:...
 ranjith
 Revesed String is:r
+//2.) Java program to reverse each word of a given 
+//string.
+public class Interviewcodes {
+public static void main(String[] args) {
+	System.out.println("java is good Programing languages");
+}
+
+static void reverseEachWordOfString(String inputString) 
+{
+	String[]words=inputString.split("");
+	String reverseString=" ";
+	for(int i=0;i<words.length;i++) {
+		String word=words[i];
+		String str="";
+		char ch;
+		for(int j=0;j<words.length();j++){
+			ch=words.charAt(j);
+			str=ch+str;
+		}
+		 String reverse= reverseString+str+" ";
+		}
+	System.out.println("input String");
+	System.out.println("reverse String");
+}}
+(OUTPUT)=>
+ 
+         Input:  Java is good programming langauges 
+         Output: avaJ si doog gnimmargorp seguagnal 
