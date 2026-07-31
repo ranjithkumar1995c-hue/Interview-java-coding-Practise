@@ -168,3 +168,46 @@ public static void main(String[] args) {
 (OUTPUT)=>Enter any number:
 30
 No of digits in given number is:2
+//9.) Java program to find Palindrome number.
+public class Interviewcodes {
+
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter any Number");
+int number=sc.nextInt();
+if(ispalindrome(number)) {
+	System.out.println(number+"is a palindrome...");
+}else {
+	System.out.println(number+"is a not a palindrome...");
+	
+
+public static boolean ispalindrome(intnum) {
+	int originalNumber=num;
+	int reverseNumber=0;
+	while(num!=0) {
+		int digit=num%10;
+		reversedNumber=reverse num*10+digit;
+		num=num/10;
+	}
+	return original Number==reversed Number;
+}}
+(OUTPUT)=>Enter a number: 1001 1001 is a palindrome. 
+//10.)  Java program to calculate the sum of digits of a number 
+public class Interviewcodes {
+
+public static void main(String[] args) {
+	int number=12345;
+	int sum of Digits=calculate the sumofDigits(number);
+	System.out.println("sum of Digits of"+number+"is:"+sumofDigits);
+
+}
+public static int calculate sum of Digits(int number) {
+	int sum=0;
+	while(number>0) {
+		int digit=number%10;
+		sum=sum+digit;
+		number=number/10;
+		return sum;
+	}
+}}
+(OUTPUT)=>Sum of digits of 12345 is: 15 .
