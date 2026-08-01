@@ -376,5 +376,57 @@ static boolean ispalindrome (Stringstr) {
 	
 
 }}
-(OUTPUT)=>Enter a number: 1001
+(OUTPUT)=>Enter a number: 1001.
+//8.) Java program to determine if Two Strings are
+//Anagrams.
+public class Interviewcodes {
+public static void main(String[] args) {
+	String str1="Listen";
+	String str2="Silent";
+	System.out.println("are Anagrams(str 1,str 2");}
+static boolean areAnagrams String str1,String str 2{
+	if(str1.length()!=str2.length());
+	{
+		return false;
+	}
+	int[]charcount=new int[256];
+	for(int i=0;i<str1.length();i++) {
+		charcount(str1.charAt[i]]++;
+		charcount(str2.charAt[i]]--;
+	}
+	for(int count.charcount) {
+		if(count!=0) {
+			return false;
+	}
+		return true;
+	}}
+	
+
+}}
+//9.) Java program to Count Vowels and Consonants
+//in a given string.
+
+public class Interviewcodes {
+public static void main(String[] args) {
+	String str="Hello world";
+//	VowelConsonantCount(str);
+	static void VowelConsonantCount(String str) {
+		int vowels = 0, consonants = 0;
+		 str = str.toLowerCase();
+		 for (char c : str.toCharArray()) {
+		 if (c >= 'a' && c <= 'z') {
+		 if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+		{
+		 vowels++;
+		 } else {
+		 consonants++;
+		 }
+		 }
+		 }
+		 System.out.println("Vowels : " + vowels);
+		 System.out.println("Consonants : " + consonants);
+
+	}
+}
+(OUTPUT)=>welcome=>e,o,e.
 1001 is a palindrome.
