@@ -356,3 +356,25 @@ BAC
 BCA
 CAB
 CBA
+//7.) Java program to find if a string is Palindrome.
+public class Interviewcodes {
+public static void main(String[] args) {
+	String str="madam";
+	System.out.println(ispalindrome(str));
+}
+static boolean ispalindrome (Stringstr) {
+	int start=0;
+	int end=str.length();
+	while(start<end) {
+		if(str.charAt(start)!=str.charAt(end)){
+			return false;
+		}
+		start++;
+		end--;
+		}
+	return true;
+	
+
+}}
+(OUTPUT)=>Enter a number: 1001
+1001 is a palindrome.
