@@ -428,5 +428,5 @@ public static void main(String[] args) {
 
 	}
 }
-(OUTPUT)=>welcome=>e,o,e.
-1001 is a palindrome.
+(OUTPUT)=>Vowels : 3
+Consonants : 7
