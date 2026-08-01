@@ -289,3 +289,26 @@ g : 2
 m : 2
 n : 2
 r : 3.
+//4.) Java program to count Occurrences of Each
+//Character in String.
+public class Interviewcodes {
+public static void main(String[] args) {
+	System.out.println("Test Automation Java Automation");
+}
+ static void charactercount(String inputString) {
+	 HashMap<String,Integer>charcountMap=new HashMap<>();
+	 for(String s : inputString.split(" "))
+	 {
+		 if(charcountMap.containsKey(s))
+		 {
+			 charCountMap.put(s,charCountMap.get(s)+1);
+		 }
+		 else {
+			 charcountMap.put(s, 1);
+		 }
+	 }
+	 System.out.println("Count of Characters in a given string : " +
+			 charCountMap);
+	 
+ }}
+(OUTPUT)=>Count of Characters in a given string : {Java=1, Automation=2, Test=1}.
