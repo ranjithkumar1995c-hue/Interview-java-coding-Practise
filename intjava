@@ -544,3 +544,21 @@ public static boolean ( is palindrome(int number) {
 (OUTPUT)=>
 Enter a number: 1001 
 1001 is a palindrome. 
+//10.)  Java program to calculate the sum of digits of a number.
+public class Interviewcodes {
+public static void main(String[] args) {
+	int number=12345;
+	int sumofDigits=calculatesumofDigits(number);
+	System.out.println("sum of digits of"+number+"is:"+sumofDigits);
+}
+public static int calculatesumofDigits(int number) {
+	int sum=0;
+	while(number>0) {
+	int Digits=number%10;
+	sum=sum+Digits;
+	number=number/10;
+	}
+	return sum;
+	
+	}}
+(OUTPUT)=>sum of digits of12345is:15.
