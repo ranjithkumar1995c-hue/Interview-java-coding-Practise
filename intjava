@@ -455,3 +455,22 @@ public static void main(String[] args) {
 (OUTPUT)=>Enter a string: Java Automation
 Unique characters in "Java Automation":
 J a v A u t o m i n.
+//6.) Java program to Reverse Number
+public class Interviewcodes {
+public static void main(String[] args) {
+	int no,rev=0,r,a;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter any number");
+	no=sc.nextInt();
+	a=no;
+	while(no>0) {  //   123/10=
+		r=no%10;
+		rev=rev*10+r;
+		no=no/10;
+	}
+	System.out.println("Reverse:"+rev);
+	
+
+}}
+(OUTPUT)=>Enter the number=>12345.
+Reverse the number=>54321.
