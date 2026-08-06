@@ -541,3 +541,6 @@ public static boolean ( is palindrome(int number) {
 	    return originalNumber==reverseNumber;	
 		
 	}}}
+(OUTPUT)=>
+Enter a number: 1001 
+1001 is a palindrome. 
