@@ -562,3 +562,23 @@ public static int calculatesumofDigits(int number) {
 	
 	}}
 (OUTPUT)=>sum of digits of12345is:15.
+public class Testpractise {
+public static void main(String[] args) {
+	int number=12345;
+	int sumofDigits=calculatesumofDigits(number);
+	System.out.println("Sum of digits of"+number+"is"+sumofDigits);
+}
+	public static int calculatesumofDigits(int number) {
+		int sum=0;
+		while(number>0) {
+			int digit=number%10;
+			sum=sum+digit;
+			number=number/10;
+		}
+		return sum;
+	}
+		
+
+}
+
+(OUTPUT)=>Sum of digits of12345is15.
