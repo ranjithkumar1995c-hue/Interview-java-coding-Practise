@@ -603,5 +603,27 @@ public class Testpractise {
 (OUTPUT)=>Enter the any number
 15
 Not Armstrong number.
+//Strings 
+//1.) Java program to reverse a string
+public class Interviewcodes {
+public static void main(String[] args) {
+	Scanner sc=new Scanner (System.in);
+	System.out.println("Enter a string:");
+	String input=sc.nextLine();
+	char ch;
+	String n=" ";
+	for(int i=0;i<input.length();i++) {
+		ch=input.charAt(i);
+		n=ch+n;
+		
+	}
+	System.out.println("Reversed String is:"+n);
+		
+	
+}}
+(OUTPUT)=>Enter a string:
+12345
+Reversed String is:54321 
+
 
 (OUTPUT)=>Sum of digits of12345is15.
